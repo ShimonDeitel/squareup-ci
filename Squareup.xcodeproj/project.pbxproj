@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AD131FAA807E18BDEE9668B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1063115AE8F72E0A928143 /* Theme.swift */; };
+		2DFB9D6FF7460D1ED8D18990 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B312CB84CE75C3EE3B8786 /* Models.swift */; };
+		30F543EA497CC475873C02F0 /* SquareupStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88428A62DF95911C72C6345B /* SquareupStore.swift */; };
+		35B5789FF028C27DEB1F37CF /* Squareup.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 7334B770ECD40D913AB38D41 /* Squareup.storekit */; };
+		574C4EBF7CB80885A8728A65 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA4BA04EA1272F9C652689 /* SettingsView.swift */; };
+		71CC5A3D9998753D67C5EF76 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F938E18FDA72DBA85C32323 /* Sheets.swift */; };
+		79EB69521072FF21410889D2 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08AA156DB9E4E5343593DE8 /* RootTabView.swift */; };
+		8E4CA23E8459D280E0DA13D7 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481E3985B72DD858C6017E8 /* PaywallView.swift */; };
+		99B5C3C2E5CCE3A76CB41EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D3ECA16911306AF4C3F16D /* Assets.xcassets */; };
+		9B8D8631A5B40F20F0BE11F2 /* SquareupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A445A7C975E43E15C15CB1A3 /* SquareupApp.swift */; };
+		AEC35D6A45FB9F8AA385A595 /* JarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24478A833E3217086E8C7F6E /* JarView.swift */; };
+		C66A35CD6F39C0BDEF5BEB65 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315359B59E6B16260D5B41E0 /* PurchaseManager.swift */; };
+		D29001C5952DF0DA00569F21 /* SquareupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7286F8477A5F8849B4F82DF /* SquareupUITests.swift */; };
+		DB8A3764DEB520E13A62A02E /* SquareupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BFDD2F0597E305DF8AA182 /* SquareupTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CBC3AD4965AB6C1318C5C7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ADBDA1EDF2C512BB239F591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25187EF8E7D194C6F202E5A7;
+			remoteInfo = Squareup;
+		};
+		E79BDC159AD21D96EF6A99AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ADBDA1EDF2C512BB239F591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25187EF8E7D194C6F202E5A7;
+			remoteInfo = Squareup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CA4BA04EA1272F9C652689 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0198FFFEDD0C8941E450551A /* SquareupUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SquareupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24478A833E3217086E8C7F6E /* JarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarView.swift; sourceTree = "<group>"; };
+		315359B59E6B16260D5B41E0 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		3F1063115AE8F72E0A928143 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		64D3ECA16911306AF4C3F16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7334B770ECD40D913AB38D41 /* Squareup.storekit */ = {isa = PBXFileReference; path = Squareup.storekit; sourceTree = "<group>"; };
+		7F938E18FDA72DBA85C32323 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		840A6000C37CCF9A3A4CD164 /* SquareupTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SquareupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8481E3985B72DD858C6017E8 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		88428A62DF95911C72C6345B /* SquareupStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareupStore.swift; sourceTree = "<group>"; };
+		8EFA0A50F24DB47722F1AFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9498488F52F30FC94DFF727A /* Squareup.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Squareup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A445A7C975E43E15C15CB1A3 /* SquareupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareupApp.swift; sourceTree = "<group>"; };
+		B08AA156DB9E4E5343593DE8 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		E7286F8477A5F8849B4F82DF /* SquareupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareupUITests.swift; sourceTree = "<group>"; };
+		E7B312CB84CE75C3EE3B8786 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F6BFDD2F0597E305DF8AA182 /* SquareupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareupTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		046D1CD858668D447C8C34A2 = {
+			isa = PBXGroup;
+			children = (
+				ADA16A31F8C87B497B86600C /* Squareup */,
+				EA7B499C24F847D278CE1CCB /* SquareupTests */,
+				E975E2217E0666FCA532A29A /* SquareupUITests */,
+				7334B770ECD40D913AB38D41 /* Squareup.storekit */,
+				3A26537C072DB82F3AACB44E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A26537C072DB82F3AACB44E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9498488F52F30FC94DFF727A /* Squareup.app */,
+				840A6000C37CCF9A3A4CD164 /* SquareupTests.xctest */,
+				0198FFFEDD0C8941E450551A /* SquareupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA16A31F8C87B497B86600C /* Squareup */ = {
+			isa = PBXGroup;
+			children = (
+				64D3ECA16911306AF4C3F16D /* Assets.xcassets */,
+				8EFA0A50F24DB47722F1AFEB /* Info.plist */,
+				24478A833E3217086E8C7F6E /* JarView.swift */,
+				E7B312CB84CE75C3EE3B8786 /* Models.swift */,
+				8481E3985B72DD858C6017E8 /* PaywallView.swift */,
+				315359B59E6B16260D5B41E0 /* PurchaseManager.swift */,
+				B08AA156DB9E4E5343593DE8 /* RootTabView.swift */,
+				00CA4BA04EA1272F9C652689 /* SettingsView.swift */,
+				7F938E18FDA72DBA85C32323 /* Sheets.swift */,
+				A445A7C975E43E15C15CB1A3 /* SquareupApp.swift */,
+				88428A62DF95911C72C6345B /* SquareupStore.swift */,
+				3F1063115AE8F72E0A928143 /* Theme.swift */,
+			);
+			path = Squareup;
+			sourceTree = "<group>";
+		};
+		E975E2217E0666FCA532A29A /* SquareupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7286F8477A5F8849B4F82DF /* SquareupUITests.swift */,
+			);
+			path = SquareupUITests;
+			sourceTree = "<group>";
+		};
+		EA7B499C24F847D278CE1CCB /* SquareupTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6BFDD2F0597E305DF8AA182 /* SquareupTests.swift */,
+			);
+			path = SquareupTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25187EF8E7D194C6F202E5A7 /* Squareup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D640AC972921AE0F34BE74D /* Build configuration list for PBXNativeTarget "Squareup" */;
+			buildPhases = (
+				FA0DF2355F60D2E882BE713B /* Sources */,
+				00F7B9533BACB39981E54D70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Squareup;
+			packageProductDependencies = (
+			);
+			productName = Squareup;
+			productReference = 9498488F52F30FC94DFF727A /* Squareup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C1E0BD4BA288864D664278B /* SquareupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB10388D28B3114FE5F52B69 /* Build configuration list for PBXNativeTarget "SquareupTests" */;
+			buildPhases = (
+				B25B1492518FC7558DAE99BE /* Sources */,
+				709A25C3A454F50834756E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8540EAB47707CF31313B8B9C /* PBXTargetDependency */,
+			);
+			name = SquareupTests;
+			packageProductDependencies = (
+			);
+			productName = SquareupTests;
+			productReference = 840A6000C37CCF9A3A4CD164 /* SquareupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6816CC496BBFF1CA1818A87F /* SquareupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6F9E053FED6C9A1E3083E9 /* Build configuration list for PBXNativeTarget "SquareupUITests" */;
+			buildPhases = (
+				7D1986B97B3F9797A7D06224 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66BF40F46B45237D69303B0B /* PBXTargetDependency */,
+			);
+			name = SquareupUITests;
+			packageProductDependencies = (
+			);
+			productName = SquareupUITests;
+			productReference = 0198FFFEDD0C8941E450551A /* SquareupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ADBDA1EDF2C512BB239F591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					25187EF8E7D194C6F202E5A7 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					4C1E0BD4BA288864D664278B = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					6816CC496BBFF1CA1818A87F = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25187EF8E7D194C6F202E5A7;
+					};
+				};
+			};
+			buildConfigurationList = 0CEB76870BF1872C20D48B4A /* Build configuration list for PBXProject "Squareup" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 046D1CD858668D447C8C34A2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3A26537C072DB82F3AACB44E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25187EF8E7D194C6F202E5A7 /* Squareup */,
+				4C1E0BD4BA288864D664278B /* SquareupTests */,
+				6816CC496BBFF1CA1818A87F /* SquareupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F7B9533BACB39981E54D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B5C3C2E5CCE3A76CB41EEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		709A25C3A454F50834756E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B5789FF028C27DEB1F37CF /* Squareup.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D1986B97B3F9797A7D06224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29001C5952DF0DA00569F21 /* SquareupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B25B1492518FC7558DAE99BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB8A3764DEB520E13A62A02E /* SquareupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA0DF2355F60D2E882BE713B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC35D6A45FB9F8AA385A595 /* JarView.swift in Sources */,
+				2DFB9D6FF7460D1ED8D18990 /* Models.swift in Sources */,
+				8E4CA23E8459D280E0DA13D7 /* PaywallView.swift in Sources */,
+				C66A35CD6F39C0BDEF5BEB65 /* PurchaseManager.swift in Sources */,
+				79EB69521072FF21410889D2 /* RootTabView.swift in Sources */,
+				574C4EBF7CB80885A8728A65 /* SettingsView.swift in Sources */,
+				71CC5A3D9998753D67C5EF76 /* Sheets.swift in Sources */,
+				9B8D8631A5B40F20F0BE11F2 /* SquareupApp.swift in Sources */,
+				30F543EA497CC475873C02F0 /* SquareupStore.swift in Sources */,
+				2AD131FAA807E18BDEE9668B /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66BF40F46B45237D69303B0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25187EF8E7D194C6F202E5A7 /* Squareup */;
+			targetProxy = E79BDC159AD21D96EF6A99AA /* PBXContainerItemProxy */;
+		};
+		8540EAB47707CF31313B8B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25187EF8E7D194C6F202E5A7 /* Squareup */;
+			targetProxy = 0CBC3AD4965AB6C1318C5C7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E7A5FE966A312E0C1F56228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Squareup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.squareup;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6ADB27F7C1B2084F298F116D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.squareup.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Squareup;
+			};
+			name = Debug;
+		};
+		7594F430EF1C1245021A4B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.squareup.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squareup.app/Squareup";
+			};
+			name = Release;
+		};
+		938B022780D43BF37A777AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E8FFE98A54FBBB1A7CB2916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Squareup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.squareup;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AE1B0CCF3A55790C236F5495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.squareup.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Squareup;
+			};
+			name = Release;
+		};
+		B66BDD738B63270AFEDC7E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BED54F12D0AF00B737E5312A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.squareup.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squareup.app/Squareup";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CEB76870BF1872C20D48B4A /* Build configuration list for PBXProject "Squareup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938B022780D43BF37A777AD1 /* Debug */,
+				B66BDD738B63270AFEDC7E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D640AC972921AE0F34BE74D /* Build configuration list for PBXNativeTarget "Squareup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8FFE98A54FBBB1A7CB2916 /* Debug */,
+				5E7A5FE966A312E0C1F56228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EB10388D28B3114FE5F52B69 /* Build configuration list for PBXNativeTarget "SquareupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED54F12D0AF00B737E5312A /* Debug */,
+				7594F430EF1C1245021A4B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB6F9E053FED6C9A1E3083E9 /* Build configuration list for PBXNativeTarget "SquareupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADB27F7C1B2084F298F116D /* Debug */,
+				AE1B0CCF3A55790C236F5495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ADBDA1EDF2C512BB239F591 /* Project object */;
+}
